@@ -37,6 +37,7 @@ function divnum()
 var x = document.getElementById('num1').value;
 var y = document.getElementById('num2').value;
 var z = parseFloat(x)/parseFloat(y);
+z = z.toFixed(2);
 document.getElementById('result').innerHTML = z;
 }
 function resultclear()

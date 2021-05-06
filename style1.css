@@ -1,5 +1,6 @@
 *{
 	margin:0px;
+	font-family: 'Roboto';
 }
 .container{
 	display: inline-block;
@@ -15,7 +16,7 @@
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-size: 1.8em;
-	width: 60%;
+	width: 80%;
 	border:2px solid #1f3a93;
 	box-sizing: border-box;
 	padding: 20px;
@@ -55,5 +56,33 @@
 	color: #FFFFFF;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	/*font-size: 1.5em;*/
+}
+
+@media screen and (max-width: 540px){
+.container input{
+	margin-top: 30px;
+	margin-bottom: 30px;
 	font-size: 1.5em;
+	width: 90%;
+	border:2px solid #1f3a93;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.container{
+	margin:5px;
+}
+
+#result{
+	font-size: 1.8em;
+}
+	
+}
+
+@media screen and (max-width: 360px){
+	.container > .btn-container button{
+		width: 60px;
+		font-size: 1.5em;
+	}
+
 }
